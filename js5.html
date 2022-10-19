@@ -9,28 +9,25 @@
 </head>
 <body>
     <center> <h1>Ejercicos javacrit</h1></center>
+
     <section id="Calculadora">
-        <h1>Calculadora</h1>
+        <h1>Programa De Calculadora</h1>
         <div>
-            <div>
-                <label for="num">Numero</label>
-                <input type="text" name="num" id="num">
-            </div>
-            <div>
-                <label for="resul">Numero 2</label>
-                <input type="text" name="Numero_2" id="Numero_2">
-            </div>
-            <div>
-                <label for="resul">Operacion</label>
-                <input type="text" name="Operacion" id="Operacion">
-            </div>
-            <div>
-                <label for="resul">Resultado</label>
-                <input type="text" name="Resultado" id="Resultado">
-            </div>
-            <div>
-                <button onclick="calcular()">calcular</button>
-            </div>
+            <label for="p1">Numero 1:</label>
+            <input type="text" id = "numero_1">
+        </div> 
+        <div>
+            <label for="p2">Numero 2:</label>
+            <input type="text" id = 'numero_2'>
+        </div>               
+            <input type="button" value="suma" onClick="suma()">
+            <input type="button" value="resta" onClick="resta()">
+            <input type="button" value="Multiplicacion" onClick="Multiplicacion()">
+            <input type="button" value="Division" onClick="Division()">
+        <div>
+            <br>
+            <label>Total: </label>
+            <input type="text" id="total">
         </div>
     </section>
 
