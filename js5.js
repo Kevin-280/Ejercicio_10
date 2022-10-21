@@ -30,4 +30,3 @@ function Division(){
     
     document.getElementById('total').value = total;
 }
-
